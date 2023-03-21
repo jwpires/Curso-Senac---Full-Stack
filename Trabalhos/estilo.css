@@ -1,0 +1,21 @@
+#titulo{
+    color: red;
+}
+
+#subtitulo{
+    color: green;
+}
+
+h1{
+    color: blue;
+}
+
+ul{
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ol{
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+}
