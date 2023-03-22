@@ -1,34 +1,67 @@
 .conteudo{
     display: flex;
     flex-direction: row;
-    margin: 5%;
+    /*margin: 0% 5% 0 5%;*/
     width: auto;
+    height: 800px;
 }
-
+/*Conf. comprimento área de login*/
 .bloco-login{
     
     width: 25%;
 }
 
+/*Conf. tamanho imagem*/
 .bloco-login img{
-    border: 1px solid #000;
     width: 90%;
     margin: 35% 5% 2% 5%;
 }
 
+/*Conf. Padrão dos labels da tela*/
 .bloco-login label{
     font-size: 16px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
-    margin-left: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #4d3efc;
 }
 
+/*Config. padrão para inputs da tela*/
 .bloco-login input{
-    width: 90%;
-    margin: 2% 5% 2% 5%;
+    width: 60%;
+    margin: 2% 20% 2% 20%;
+    border-radius: 20px 20px;
+    height: 20px;
 }
+
+/*Config. botão entrar*/
+#entrar{
+    background-color: #4d3efc;
+    color: #fff;
+    border: none;
+}
+
+/*Config. botão esqueci minha senha*/
+#esqueci-senha{
+    border: none;
+    color: #4d3efc;
+}
+
+/*Config. Padrão para botões esqueci-senha e entrar*/
+#entrar, #esqueci-senha{
+    border-radius: 30px 30px;
+    height: 40px;
+    width: 50%;
+    margin-left: 25%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin-bottom: 0p;
+}
+
+/*Config. imagem de fundo bloco 2 da tela.*/
 .bloco-imagens{
     width: 75%;
-    height: 600px;
+    height: 100%;
     background-color: #4d3efc;
 }

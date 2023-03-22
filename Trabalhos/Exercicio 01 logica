@@ -1,0 +1,65 @@
+Sequencia lógica para ligar um computador
+
+
+
+Cabo de energia está conectado a tomada?
+    Se cabo não conectado
+        conectar cabo de energia a tomada 
+        
+    Senão
+        Apertar botão de ligar CPU
+
+        Se CPU não Ligar
+            Verificar se cabo de energia está conectado na CPU
+
+            Se cabo de energia estiver conectado
+                solicitar a troca do cabo.
+            
+            Senão
+                Conectar cabo de energia na CPU
+        
+        Senão
+            Apertar botão de ligar Monitor
+
+            Se Monitor não Ligar
+                Verificar se cabo de energia está conectado ao tomada
+
+                Se cabo de energia estiver conectado
+                    solicitar a troca do cabo.
+            
+                Senão
+                    Conectar cabo de energia na tomada
+            
+            Senão 
+                Verificar se monitor está com tela preta
+                Se estiver com tela preta
+                    Verificar se o cabo de transmissão de imagem está conectado a CPU
+
+                        Se o cabo estiver conectado a CPU
+                            Verificar se o cabo está conectado ao monitor
+
+                            Se o cabo estiver conectado ao monitor
+                                Solicitar a troca do cabo
+                        
+                        Senão 
+                            Conectar o cabo a CPU 
+                            Verificar se o cabo está conectado ao monitor
+
+                            Se o cabo estiver conectado ao monitor
+                                Solicitar a troca do cabo
+
+                    Senão
+                        Verificar se teclado está conectado a CPU
+                        Se teclado não conectado
+                            conectar teclado a CPU
+                        
+                        Verificar se mouse está conectado a CPU
+                        Se mouse não estiver conectado
+                            conectar mouse na CPU
+
+                        Se S.O solicitar usuário
+                            inserir usuário
+                            inserir senha
+                        
+                        Utilizar S.O
+

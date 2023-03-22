@@ -1,0 +1,11 @@
+Multiplicar dois números, logo após isso, somar o primeiro e subtrair o segundo.
+
+var numer1, numero2, resultado;
+
+    numero1 = 5;
+
+    numero2 = 4;
+
+Resultado = (numero1 * numero2) + numero1 - numero2;
+
+
