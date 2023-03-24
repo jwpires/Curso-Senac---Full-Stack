@@ -1,9 +1,13 @@
+body, html{
+    height: 100%;
+    width: 100%;
+}
 .conteudo{
     display: flex;
     flex-direction: row;
     /*margin: 0% 5% 0 5%;*/
     width: auto;
-    height: 800px;
+    height: 100%;
 }
 /*Conf. comprimento área de login*/
 .bloco-login{

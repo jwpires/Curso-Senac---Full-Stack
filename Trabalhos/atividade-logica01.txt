@@ -1,0 +1,30 @@
+
+
+var numero1, numero2, resultado, opcao;
+
+escreva("Informe primeiro numero");
+leia (numero1);
+
+escreva("Informe segundo numero");
+leia (numero2);
+
+
+escreva("digite 1 para realizar a adição dos número (+)");
+escreva("digite 2 para realizar a subtração dos número (-)");
+leia(opcao)
+
+escolha(opcao){
+    caso 1: 
+            faça(var i=0; i < 5; i=i+1){
+                resultado = numero1 + numero2;
+            }
+            
+            escreva(resultado);
+
+    caso 2: faça(var i=0; i < 5; i=i+1){
+                resultado = numero1 - numero2;
+            }
+            escreva(resultado);
+
+    padrao: escreva("opção inválida, informe 1 ou 2 para execução do calculo.");
+}
