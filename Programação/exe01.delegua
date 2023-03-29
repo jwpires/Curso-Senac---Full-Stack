@@ -1,0 +1,6 @@
+//1-) Escreva um programa que pergunte o raio de um círculo, imprima sua área
+
+var r = 0;
+var r = leia("Informe o raio do círculo:");
+var area = (3.14)*(r*r);
+escreva("O valor da área é ${area}");

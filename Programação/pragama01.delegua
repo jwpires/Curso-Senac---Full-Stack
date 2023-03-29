@@ -1,0 +1,10 @@
+
+    var n1 = leia("Informe o número n1");
+  
+    var n2 = leia("Informe o número n2");
+  
+    var n3 = leia('"Informe o número n3"');
+
+    escreva(n3);
+    escreva(n2);
+    escreva(n1);

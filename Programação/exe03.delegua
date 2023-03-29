@@ -1,0 +1,29 @@
+//3-) Escreva um programa que pergunte quantas notas de:
+
+var qtde = 0;
+var total = 0;
+
+var qtde = leia("informe a quantiade de notas de 2");
+total += (qtde * 2);
+
+var qtde = leia("informe a quantiade de notas de 5");
+total += qtde * 5;
+
+var qtde = leia("informe a quantiade de notas de 10");
+total += qtde * 10;
+
+var qtde = leia("informe a quantiade de notas de 20");
+total += qtde * 20;
+
+var qtde = leia("informe a quantiade de notas de 50");
+total += qtde * 50;
+
+var qtde = leia("informe a quantiade de notas de 100");
+total += qtde * 100;
+
+var qtde = leia("informe a quantiade de notas de 200");
+total += (qtde * 200);
+
+escreva ("Total: ", total);
+
+
