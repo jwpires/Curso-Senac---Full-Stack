@@ -1,0 +1,7 @@
+// 6-) Faça um programa que calcule o IMC da pessoa
+var peso = 0;
+var altura = 0;
+var peso = leia("Informe seu peso");
+var altura = leia("Informe sua altura");
+
+escreva("Seu IMC é :"+(peso / (altura * altura)));

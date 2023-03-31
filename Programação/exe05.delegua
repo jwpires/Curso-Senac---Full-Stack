@@ -1,0 +1,8 @@
+var horasTrabalhada = 0;
+var horasExtras = 0;
+
+var horasTrabalhada = leia("Informe a quantidade de horas trabaladas");
+var horasExtras = leia("Informe a quantidade de horas extras");
+
+escreva("Salário bruto: "+((horasTrabalhada * 10 + horasExtras * 15)));
+escreva("Salário líquido: "+((((horasTrabalhada * 10) + (horasExtras * 15 )) * (0.90))));
