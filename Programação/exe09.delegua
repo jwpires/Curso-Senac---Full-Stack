@@ -1,0 +1,7 @@
+// 9-) Elaborar um programa que apresente o valor da conversão em real (R$) de um valor
+// lido em dólar (US$). O programa deve solicitar o valor da cotação do dólar
+
+var dolar = leia("Informe o valor em dolar.");
+var cotacaoDolarReal = leia("Informe o valor do real para 1 dolar do dia atual.");
+
+escreva("A conversão de "+dolar+" dolar(es) em real é/são "+(dolar*cotacaoDolarReal)+" real(is).");
