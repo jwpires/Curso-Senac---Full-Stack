@@ -1,0 +1,17 @@
+// 1-) Fazer um algoritmo que leia 20 valores numéricos inteiros e armazene-os em um vetor. 
+// Após, verifique –dentre estes valores -se existem valores iguais a 10. 
+// Se existirem, escrever as posições em que estes valores estão armazenados.
+
+var vetor = [1,2,10,84,62,57,10,62,41,78,21,65,44,77,10,96,42,76,1,20];
+//vetor[0].inclui(0);
+var cont = 0;
+
+para(var i = 0; i < 20; i++){
+    se(vetor[i]==10){
+        escreva("vetor["+i+"] : ", vetor[i])
+        cont++;
+    }
+}
+
+escreva("Quantidade de números 10 encontrados foram ${cont} vezes.")
+

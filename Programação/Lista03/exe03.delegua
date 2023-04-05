@@ -1,0 +1,9 @@
+// 3-) Faça um algoritmo de soma, onde o usuário pode informar quantos números ele quiser, 
+// assim que terminar de informar os números, deve ser exibida a soma desses números
+
+var numero = [1,5,8,7,4,6,1,8,14];
+var soma = 0;
+para(var i=0; i < numero.tamanho(); i++){
+    soma +=numero[i];
+}
+escreva("A soma dos números é :", soma);

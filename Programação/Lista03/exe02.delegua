@@ -1,0 +1,21 @@
+// 2-)Faça um algoritmo que leia 10 números desordenados, ordene e depois exiba o resultado ordenado para o usuário
+
+var vetor = [10,7,8,4,5,1,3,2,6,9];
+
+para(var i = 0; i < 10; i++){
+
+    para(var j = 1; j < 10; j++ ){
+
+        se(vetor[j-1] > vetor[j]){
+
+            var aux = vetor[j-1];
+            vetor[j-1] = vetor[j];
+            vetor[j] = aux;
+        }
+    }
+}
+
+para(var i = 0; i<10; i++){
+    escreva(vetor[i]);
+}
+

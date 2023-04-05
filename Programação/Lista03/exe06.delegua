@@ -1,0 +1,29 @@
+// 6-) Faça um algoritmo que receba a altura e peso de todos os alunos de uma sala de aula de 15 alunos, 
+// depois disso faça o seguinte:-Mostre o peso médio-Mostre a altura média-Mostre o aluno mais alto (pelo índice mesmo)
+
+var altura = [1.75, 2.2, 1.89, 1.67];
+var peso = [80, 112, 94, 71];
+var pesoMedio = 0;
+var alturaMedia = 0;
+var aux = 0;
+
+para(var i = 0; i < altura.tamanho(); i++){
+    pesoMedio += peso[i];
+    alturaMedia += altura[i];
+}
+
+pesoMedio /= peso.tamanho();
+alturaMedia /= altura.tamanho();
+
+aux = alturaMedia;
+para(var i = 1; i<altura.tamanho(); i++){
+   
+    se(aux < altura[i]){
+        aux = altura[i];
+        
+    }
+}
+
+escreva("Peso Medio ",pesoMedio);
+escreva("Altura Media ",alturaMedia);
+escreva("Aluno mais alto ",aux);

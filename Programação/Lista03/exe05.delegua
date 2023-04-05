@@ -1,0 +1,11 @@
+// 5-) Receba 20 valores e depois informe se existem números repetidos.
+
+var vetor = [10,7,8,4,5,1,3,10,6,9,14,99,88,75,88,48,91,28,154,20];
+
+para(var i = 0; i < vetor.tamanho(); i++){
+    para(var j = i+1; j<vetor.tamanho(); j++){
+        se(vetor[i]==vetor[j]){
+            escreva("número repitido: ",vetor[j]);
+        }
+    }
+}
