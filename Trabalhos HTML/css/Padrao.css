@@ -79,3 +79,18 @@ hr{
     width: 200px;
     font-weight: bolder;
 }
+
+/* Layout do exercícios de cadastro */
+.tela-cadastros{
+    height: 500px;
+    width: 800px;
+    border: #000 solid;
+    background-color: aquamarine;
+}
+
+label {
+    margin: 2px 0 0px 20px;
+}
+label input {
+    margin-left: 50px;
+}

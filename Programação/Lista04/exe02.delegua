@@ -1,0 +1,7 @@
+// 2-) Faça um algoritmo que receba o nome do usuário e mostre o nome em maiúsculo e 
+// minúsculo (separado): Exemplo -> Nome: Joao -> JOAO -> joao
+
+var nome = leia("Escreva seu nome");
+
+escreva(nome.maiusculo());
+escreva(nome.minusculo());

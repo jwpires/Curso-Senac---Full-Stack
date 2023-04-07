@@ -1,0 +1,10 @@
+// 4-) Faça um algoritmo que recria um Dado D20 (com 20 faces), pergunte quantas vezes o 
+// usuário quer jogar o dado e depois mostre os resultados
+var qtde = 0;
+var qtde = leia("Quantas vezes você quer jogar o dado?");
+var dado = 0;
+para(var i = 0; i < qtde; i++){
+    dado = aleatorioEntre(1, 20);
+    escreva("Lançamento nº "+(i+1)+" : ",dado);
+
+}

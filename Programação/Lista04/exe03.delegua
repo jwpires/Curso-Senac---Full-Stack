@@ -1,0 +1,23 @@
+// 3-) Faça um algoritmo que receba uma frase do usuário, depois veja se na frase ele falou 
+// alguma das palavras: “Proibida”, “Menor”, “SENAO”
+// Depois de verificar se existe a palavra, as substitua pela palavra: “Invalido”
+
+
+var frase = leia("escreva a frase:");
+var compara01 =  "";
+var compara02 =  "";
+var compara03 =  "";
+    compara01 =  frase.substituir("Proibida","Invalido");
+    compara02= compara01.substituir("Menor","Invalido");
+    compara03= compara02.substituir("SENAO","Invalido");
+
+    se(frase == compara03){
+        escreva("Palavras: “Proibida”, “Menor”, “SENAO” não constam na frase: ",frase);
+       
+    }senao {
+        escreva("uma das Palavras: “Proibida”, “Menor”, “SENAO”, constam na frase e a mesma foi alterada para: ");
+        escreva(compara03);
+    }
+    
+
+

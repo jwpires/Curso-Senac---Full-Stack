@@ -1,0 +1,7 @@
+// Lista de exercícios lógica de programação – Desafios documentação – Lista 4
+// 1-) Faça um algoritmo que pergunte o nome do usuário, depois mostre o tamanho do nome 
+// dele
+
+
+var nome = leia("informe seu nome");
+escreva("seu nome tem "+nome.tamanho()+" letras");
