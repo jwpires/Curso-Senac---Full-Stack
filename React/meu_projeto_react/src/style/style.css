@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.cabecalho{
+    background-color: #cccccc;
+    width: 100%;
+    text-align: center;
+}
+
+._body{
+    width: 100%;
+    background-color: lightslategray;
+    text-align: center;
+}
+.rodape{
+    background-color: cornflowerblue;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+}
