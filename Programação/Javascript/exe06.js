@@ -1,6 +1,8 @@
 // 6-) Faça um programa que calcule o IMC da pessoa
-var peso = 94;
-var altura = 1.72;
+const prompt = require('prompt-sync')();
+
+var peso = prompt("Informe seu peso: ");
+var altura = prompt("Informe sua altura: ");
 
 
-console.log("Seu IMC é :"+Math.trunc(peso / (altura * altura)));
+console.log("Seu IMC é :"+(peso / (altura * altura)));

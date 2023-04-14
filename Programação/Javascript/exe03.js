@@ -1,27 +1,30 @@
 //3-) Escreva um programa que pergunte quantas notas de:
 
-var qtde = 0;
+const prompt = require('prompt-sync')();
 var total = 0;
 
-qtde = 1;
+
+let qtde = 0;
+
+qtde = prompt("Informe quantidade de notas de 2: ");;
 total += (qtde * 2);
 
-qtde = 1;
+qtde = prompt("Informe quantidade de notas de 5: ");;
 total += qtde * 5;
 
-qtde = 1;
+qtde = prompt("Informe quantidade de notas de 10: ");;
 total += qtde * 10;
 
-qtde = 1;
+qtde = prompt("Informe quantidade de notas de 20: ");;
 total += qtde * 20;
 
-qtde = 1;
+qtde = prompt("Informe quantidade de notas de 50: ");;
 total += qtde * 50;
 
-qtde = 1;
+qtde = prompt("Informe quantidade de notas de 100: ");;
 total += qtde * 100;
 
-qtde = 1;
+qtde = prompt("Informe quantidade de notas de 200: ");
 total += (qtde * 200);
 
 console.log("Total: "+total);
