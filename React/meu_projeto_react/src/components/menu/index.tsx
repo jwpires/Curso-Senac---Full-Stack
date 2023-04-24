@@ -13,4 +13,4 @@ function Menu (props: { Menu1: string ; Menu2: string ;  Menu3: string ; Menu4: 
     );
   }
 
-  export default Menu;
+  export default Menu;  
